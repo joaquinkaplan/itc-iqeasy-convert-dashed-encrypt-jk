@@ -10,6 +10,8 @@ Notes
 A string can contain uppercase and lowercase vowels.
 */
 
+//EXPLAINED JK: THE ARGUMENT IS THE STRING YOU INCLUDE WHEN YOU CALL THE FUNCTION. CREATE A VARIABLE CALLED output INSIDE THE FUNCTION. output EXECUTES THE replace METHOD, FINDING ALL VOWELS (BOTH LOWER AND UPPERCASE) WITH A REGEX, AND TELLS TO ADD A DASH BEFORE AND AFTER THE VALUE INCLUDED IN THE REGEX. THEN RETURN OUTPUT. 
+
 function dashed(string) {
 let output = string.replace(/[aeiouAEIOU]/g, '-$&-')
 return output;
